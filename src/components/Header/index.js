@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Chart from '../Chart';
 import "./index.css";
 
 const Header = () => {
@@ -43,6 +44,7 @@ const Header = () => {
           <button className="time" type="button" disabled>06:00</button>
           <button className="time" type="button" disabled>09:00</button>
       </div>
+      <Chart />
     </div>
   );
 };
